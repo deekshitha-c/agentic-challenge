@@ -1,0 +1,3 @@
+requests>=2.31.0         # For making HTTP requests to WeatherAPI
+pypdf>=3.16.0            # For PDF reading
+fastmcp>=0.3.5
