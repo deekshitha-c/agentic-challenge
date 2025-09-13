@@ -1,3 +1,5 @@
-requests>=2.31.0         # For making HTTP requests to WeatherAPI
+requests>=2.31.0         # For making HTTP requests to Gemini API and WeatherAPI
 pypdf>=3.16.0            # For PDF reading
-fastmcp>=0.3.5
+fastmcp>=0.3.5           # For building MCP servers
+httpx>=0.27.0            # For async HTTP requests in Weather MCP
+anyio>=4.4.0             # For async concurrency (used by MCP)
